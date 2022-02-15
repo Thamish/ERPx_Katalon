@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>LoginTests</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>94bd599e-62d1-47b1-a3b2-0e2718bdc44a</testSuiteGuid>
+   <testCaseLink>
+      <guid>ff7ced85-7dfe-4e97-9a09-606fc6d7ba58</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login/Negative/Failed login</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>4c87969d-11b3-427f-9cfc-8ffcf7626228</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/LoginDataIncorrect</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>4c87969d-11b3-427f-9cfc-8ffcf7626228</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>UserName</value>
+         <variableId>808d7883-ccbb-473f-8fbf-d16898ffd971</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4c87969d-11b3-427f-9cfc-8ffcf7626228</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Client</value>
+         <variableId>63f1c8d6-5397-440d-aa02-3039ddbb7bb7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4c87969d-11b3-427f-9cfc-8ffcf7626228</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>2e28f080-47fc-4bd1-9510-4ee7f6f80649</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e3fe2a01-f38d-4241-8292-f9df9d94093f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login/Positive/Successful login</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>9d72223a-61b7-4de4-9c89-b3ab03757749</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/LoginDataCorrect</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>9d72223a-61b7-4de4-9c89-b3ab03757749</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>UserName</value>
+         <variableId>ea5b2a3a-ccc5-422a-b4f3-44052477ddec</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9d72223a-61b7-4de4-9c89-b3ab03757749</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Client</value>
+         <variableId>fa9c7789-4aa0-48e8-b26c-3fca8cc5f0cb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9d72223a-61b7-4de4-9c89-b3ab03757749</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>0ae2a632-2eb0-4fc0-a703-05a882924b73</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

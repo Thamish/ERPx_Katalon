@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>NAvi</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>356af930-f041-4226-94ce-6b2b973c9820</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('LoginDataCorrect').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>4187aa06-51c6-4ccc-ae89-7e8b88aaa3c5</id>
+      <masked>false</masked>
+      <name>UserName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('LoginDataCorrect').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>d4d76c4e-b614-4ea4-b3d6-ca6730db63d0</id>
+      <masked>false</masked>
+      <name>Client</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('LoginDataCorrect').getValue(3, 1)</defaultValue>
+      <description></description>
+      <id>1fe5bdf0-ba14-4a5b-8523-ea3e61369148</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Page_Menu - Unit4 ERP/div_Forms')</defaultValue>
+      <description></description>
+      <id>492f6776-69c3-4486-a770-8538a15bd420</id>
+      <masked>false</masked>
+      <name>Page_name</name>
+   </variable>
+</TestCaseEntity>

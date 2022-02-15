@@ -1,0 +1,132 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+LoginTests,Chrome 98.0.4758.82,,,2022-02-15 16:11:44,2022-02-15 16:13:23,1m - 39.274s,PASSED
+,,,,,,,
+Test Cases/Login/Negative/Failed login,Chrome 98.0.4758.82,,,2022-02-15 16:11:44,2022-02-15 16:11:55,11.377s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.82,,,2022-02-15 16:11:46,2022-02-15 16:11:49,3.450s,PASSED
+"navigateToUrl(""https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f"")",Chrome 98.0.4758.82,,,2022-02-15 16:11:49,2022-02-15 16:11:51,1.668s,PASSED
+"setText(findTestObject(""Page_Login - Unit4 ERP/input_User name_ctl10name""), UserName)",Chrome 98.0.4758.82,,,2022-02-15 16:11:51,2022-02-15 16:11:52,0.778s,PASSED
+"setText(findTestObject(""Page_Login - Unit4 ERP/input_Client_ctl10client""), Client)",Chrome 98.0.4758.82,,,2022-02-15 16:11:52,2022-02-15 16:11:52,0.691s,PASSED
+"setText(findTestObject(""Page_Login - Unit4 ERP/input_Password_ctl10password""), Password)",Chrome 98.0.4758.82,,,2022-02-15 16:11:52,2022-02-15 16:11:53,0.664s,PASSED
+"click(findTestObject(""Page_Login - Unit4 ERP/Login_Button""))",Chrome 98.0.4758.82,,,2022-02-15 16:11:53,2022-02-15 16:11:54,1.202s,PASSED
+"verifyElementPresent(findTestObject(""Page_Login - Unit4 ERP/td""), 0)",Chrome 98.0.4758.82,,,2022-02-15 16:11:54,2022-02-15 16:11:55,0.449s,PASSED
+closeBrowser(),Chrome 98.0.4758.82,,,2022-02-15 16:11:55,2022-02-15 16:11:55,0.703s,PASSED
+,,,,,,,
+Test Cases/Login/Negative/Failed login,Chrome 98.0.4758.82,,,2022-02-15 16:11:55,2022-02-15 16:12:03,7.094s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.82,,,2022-02-15 16:11:56,2022-02-15 16:11:57,1.395s,PASSED
+"navigateToUrl(""https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f"")",Chrome 98.0.4758.82,,,2022-02-15 16:11:57,2022-02-15 16:11:58,1.174s,PASSED
+"setText(findTestObject(""Page_Login - Unit4 ERP/input_User name_ctl10name""), UserName)",Chrome 98.0.4758.82,,,2022-02-15 16:11:58,2022-02-15 16:11:59,0.786s,PASSED
+"setText(findTestObject(""Page_Login - Unit4 ERP/input_Client_ctl10client""), Client)",Chrome 98.0.4758.82,,,2022-02-15 16:11:59,2022-02-15 16:12:00,0.666s,PASSED
+"setText(findTestObject(""Page_Login - Unit4 ERP/input_Password_ctl10password""), Password)",Chrome 98.0.4758.82,,,2022-02-15 16:12:00,2022-02-15 16:12:00,0.670s,PASSED
+"click(findTestObject(""Page_Login - Unit4 ERP/Login_Button""))",Chrome 98.0.4758.82,,,2022-02-15 16:12:00,2022-02-15 16:12:01,1.055s,PASSED
+"verifyElementPresent(findTestObject(""Page_Login - Unit4 ERP/td""), 0)",Chrome 98.0.4758.82,,,2022-02-15 16:12:01,2022-02-15 16:12:02,0.443s,PASSED
+closeBrowser(),Chrome 98.0.4758.82,,,2022-02-15 16:12:02,2022-02-15 16:12:03,0.676s,PASSED
+,,,,,,,
+Test Cases/Login/Negative/Failed login,Chrome 98.0.4758.82,,,2022-02-15 16:12:03,2022-02-15 16:12:10,7.061s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.82,,,2022-02-15 16:12:03,2022-02-15 16:12:04,1.313s,PASSED
+"navigateToUrl(""https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f"")",Chrome 98.0.4758.82,,,2022-02-15 16:12:04,2022-02-15 16:12:05,1.100s,PASSED
+"setText(findTestObject(""Page_Login - Unit4 ERP/input_User name_ctl10name""), UserName)",Chrome 98.0.4758.82,,,2022-02-15 16:12:05,2022-02-15 16:12:06,0.792s,PASSED
+"setText(findTestObject(""Page_Login - Unit4 ERP/input_Client_ctl10client""), Client)",Chrome 98.0.4758.82,,,2022-02-15 16:12:06,2022-02-15 16:12:07,0.663s,PASSED
+"setText(findTestObject(""Page_Login - Unit4 ERP/input_Password_ctl10password""), Password)",Chrome 98.0.4758.82,,,2022-02-15 16:12:07,2022-02-15 16:12:07,0.674s,PASSED
+"click(findTestObject(""Page_Login - Unit4 ERP/Login_Button""))",Chrome 98.0.4758.82,,,2022-02-15 16:12:07,2022-02-15 16:12:08,1.166s,PASSED
+"verifyElementPresent(findTestObject(""Page_Login - Unit4 ERP/td""), 0)",Chrome 98.0.4758.82,,,2022-02-15 16:12:08,2022-02-15 16:12:09,0.456s,PASSED
+closeBrowser(),Chrome 98.0.4758.82,,,2022-02-15 16:12:09,2022-02-15 16:12:10,0.671s,PASSED
+,,,,,,,
+Test Cases/Login/Negative/Failed login,Chrome 98.0.4758.82,,,2022-02-15 16:12:10,2022-02-15 16:12:17,7.175s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.82,,,2022-02-15 16:12:10,2022-02-15 16:12:11,1.356s,PASSED
+"navigateToUrl(""https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f"")",Chrome 98.0.4758.82,,,2022-02-15 16:12:11,2022-02-15 16:12:12,1.235s,PASSED
+"setText(findTestObject(""Page_Login - Unit4 ERP/input_User name_ctl10name""), UserName)",Chrome 98.0.4758.82,,,2022-02-15 16:12:12,2022-02-15 16:12:13,0.780s,PASSED
+"setText(findTestObject(""Page_Login - Unit4 ERP/input_Client_ctl10client""), Client)",Chrome 98.0.4758.82,,,2022-02-15 16:12:13,2022-02-15 16:12:14,0.671s,PASSED
+"setText(findTestObject(""Page_Login - Unit4 ERP/input_Password_ctl10password""), Password)",Chrome 98.0.4758.82,,,2022-02-15 16:12:14,2022-02-15 16:12:15,0.668s,PASSED
+"click(findTestObject(""Page_Login - Unit4 ERP/Login_Button""))",Chrome 98.0.4758.82,,,2022-02-15 16:12:15,2022-02-15 16:12:16,1.122s,PASSED
+"verifyElementPresent(findTestObject(""Page_Login - Unit4 ERP/td""), 0)",Chrome 98.0.4758.82,,,2022-02-15 16:12:16,2022-02-15 16:12:16,0.436s,PASSED
+closeBrowser(),Chrome 98.0.4758.82,,,2022-02-15 16:12:16,2022-02-15 16:12:17,0.688s,PASSED
+,,,,,,,
+Test Cases/Login/Negative/Failed login,Chrome 98.0.4758.82,,,2022-02-15 16:12:17,2022-02-15 16:12:24,6.938s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.82,,,2022-02-15 16:12:17,2022-02-15 16:12:18,1.328s,PASSED
+"navigateToUrl(""https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f"")",Chrome 98.0.4758.82,,,2022-02-15 16:12:18,2022-02-15 16:12:19,1.079s,PASSED
+"setText(findTestObject(""Page_Login - Unit4 ERP/input_User name_ctl10name""), UserName)",Chrome 98.0.4758.82,,,2022-02-15 16:12:19,2022-02-15 16:12:20,0.769s,PASSED
+"setText(findTestObject(""Page_Login - Unit4 ERP/input_Client_ctl10client""), Client)",Chrome 98.0.4758.82,,,2022-02-15 16:12:20,2022-02-15 16:12:21,0.659s,PASSED
+"setText(findTestObject(""Page_Login - Unit4 ERP/input_Password_ctl10password""), Password)",Chrome 98.0.4758.82,,,2022-02-15 16:12:21,2022-02-15 16:12:22,0.669s,PASSED
+"click(findTestObject(""Page_Login - Unit4 ERP/Login_Button""))",Chrome 98.0.4758.82,,,2022-02-15 16:12:22,2022-02-15 16:12:23,1.051s,PASSED
+"verifyElementPresent(findTestObject(""Page_Login - Unit4 ERP/td""), 0)",Chrome 98.0.4758.82,,,2022-02-15 16:12:23,2022-02-15 16:12:23,0.444s,PASSED
+closeBrowser(),Chrome 98.0.4758.82,,,2022-02-15 16:12:23,2022-02-15 16:12:24,0.686s,PASSED
+,,,,,,,
+Test Cases/Login/Negative/Failed login,Chrome 98.0.4758.82,,,2022-02-15 16:12:24,2022-02-15 16:12:31,6.908s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.82,,,2022-02-15 16:12:24,2022-02-15 16:12:25,1.317s,PASSED
+"navigateToUrl(""https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f"")",Chrome 98.0.4758.82,,,2022-02-15 16:12:25,2022-02-15 16:12:26,1.149s,PASSED
+"setText(findTestObject(""Page_Login - Unit4 ERP/input_User name_ctl10name""), UserName)",Chrome 98.0.4758.82,,,2022-02-15 16:12:26,2022-02-15 16:12:27,0.756s,PASSED
+"setText(findTestObject(""Page_Login - Unit4 ERP/input_Client_ctl10client""), Client)",Chrome 98.0.4758.82,,,2022-02-15 16:12:27,2022-02-15 16:12:28,0.663s,PASSED
+"setText(findTestObject(""Page_Login - Unit4 ERP/input_Password_ctl10password""), Password)",Chrome 98.0.4758.82,,,2022-02-15 16:12:28,2022-02-15 16:12:28,0.651s,PASSED
+"click(findTestObject(""Page_Login - Unit4 ERP/Login_Button""))",Chrome 98.0.4758.82,,,2022-02-15 16:12:28,2022-02-15 16:12:30,1.080s,PASSED
+"verifyElementPresent(findTestObject(""Page_Login - Unit4 ERP/td""), 0)",Chrome 98.0.4758.82,,,2022-02-15 16:12:30,2022-02-15 16:12:30,0.450s,PASSED
+closeBrowser(),Chrome 98.0.4758.82,,,2022-02-15 16:12:30,2022-02-15 16:12:31,0.649s,PASSED
+,,,,,,,
+Test Cases/Login/Negative/Failed login,Chrome 98.0.4758.82,,,2022-02-15 16:12:31,2022-02-15 16:12:38,6.952s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.82,,,2022-02-15 16:12:31,2022-02-15 16:12:32,1.268s,PASSED
+"navigateToUrl(""https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f"")",Chrome 98.0.4758.82,,,2022-02-15 16:12:32,2022-02-15 16:12:33,1.140s,PASSED
+"setText(findTestObject(""Page_Login - Unit4 ERP/input_User name_ctl10name""), UserName)",Chrome 98.0.4758.82,,,2022-02-15 16:12:33,2022-02-15 16:12:34,0.774s,PASSED
+"setText(findTestObject(""Page_Login - Unit4 ERP/input_Client_ctl10client""), Client)",Chrome 98.0.4758.82,,,2022-02-15 16:12:34,2022-02-15 16:12:35,0.679s,PASSED
+"setText(findTestObject(""Page_Login - Unit4 ERP/input_Password_ctl10password""), Password)",Chrome 98.0.4758.82,,,2022-02-15 16:12:35,2022-02-15 16:12:35,0.667s,PASSED
+"click(findTestObject(""Page_Login - Unit4 ERP/Login_Button""))",Chrome 98.0.4758.82,,,2022-02-15 16:12:35,2022-02-15 16:12:36,1.106s,PASSED
+"verifyElementPresent(findTestObject(""Page_Login - Unit4 ERP/td""), 0)",Chrome 98.0.4758.82,,,2022-02-15 16:12:36,2022-02-15 16:12:37,0.446s,PASSED
+closeBrowser(),Chrome 98.0.4758.82,,,2022-02-15 16:12:37,2022-02-15 16:12:38,0.686s,PASSED
+,,,,,,,
+Test Cases/Login/Negative/Failed login,Chrome 98.0.4758.82,,,2022-02-15 16:12:38,2022-02-15 16:12:45,7.526s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.82,,,2022-02-15 16:12:38,2022-02-15 16:12:39,1.308s,PASSED
+"navigateToUrl(""https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f"")",Chrome 98.0.4758.82,,,2022-02-15 16:12:39,2022-02-15 16:12:41,1.623s,PASSED
+"setText(findTestObject(""Page_Login - Unit4 ERP/input_User name_ctl10name""), UserName)",Chrome 98.0.4758.82,,,2022-02-15 16:12:41,2022-02-15 16:12:41,0.726s,PASSED
+"setText(findTestObject(""Page_Login - Unit4 ERP/input_Client_ctl10client""), Client)",Chrome 98.0.4758.82,,,2022-02-15 16:12:41,2022-02-15 16:12:42,0.659s,PASSED
+"setText(findTestObject(""Page_Login - Unit4 ERP/input_Password_ctl10password""), Password)",Chrome 98.0.4758.82,,,2022-02-15 16:12:42,2022-02-15 16:12:43,0.653s,PASSED
+"click(findTestObject(""Page_Login - Unit4 ERP/Login_Button""))",Chrome 98.0.4758.82,,,2022-02-15 16:12:43,2022-02-15 16:12:44,1.262s,PASSED
+"verifyElementPresent(findTestObject(""Page_Login - Unit4 ERP/td""), 0)",Chrome 98.0.4758.82,,,2022-02-15 16:12:44,2022-02-15 16:12:44,0.440s,PASSED
+closeBrowser(),Chrome 98.0.4758.82,,,2022-02-15 16:12:44,2022-02-15 16:12:45,0.676s,PASSED
+,,,,,,,
+Test Cases/Login/Negative/Failed login,Chrome 98.0.4758.82,,,2022-02-15 16:12:45,2022-02-15 16:12:52,6.783s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.82,,,2022-02-15 16:12:45,2022-02-15 16:12:47,1.247s,PASSED
+"navigateToUrl(""https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f"")",Chrome 98.0.4758.82,,,2022-02-15 16:12:47,2022-02-15 16:12:48,1.155s,PASSED
+"setText(findTestObject(""Page_Login - Unit4 ERP/input_User name_ctl10name""), UserName)",Chrome 98.0.4758.82,,,2022-02-15 16:12:48,2022-02-15 16:12:48,0.704s,PASSED
+"setText(findTestObject(""Page_Login - Unit4 ERP/input_Client_ctl10client""), Client)",Chrome 98.0.4758.82,,,2022-02-15 16:12:48,2022-02-15 16:12:49,0.658s,PASSED
+"setText(findTestObject(""Page_Login - Unit4 ERP/input_Password_ctl10password""), Password)",Chrome 98.0.4758.82,,,2022-02-15 16:12:49,2022-02-15 16:12:50,0.655s,PASSED
+"click(findTestObject(""Page_Login - Unit4 ERP/Login_Button""))",Chrome 98.0.4758.82,,,2022-02-15 16:12:50,2022-02-15 16:12:51,1.028s,PASSED
+"verifyElementPresent(findTestObject(""Page_Login - Unit4 ERP/td""), 0)",Chrome 98.0.4758.82,,,2022-02-15 16:12:51,2022-02-15 16:12:51,0.435s,PASSED
+closeBrowser(),Chrome 98.0.4758.82,,,2022-02-15 16:12:51,2022-02-15 16:12:52,0.698s,PASSED
+,,,,,,,
+Test Cases/Login/Negative/Failed login,Chrome 98.0.4758.82,,,2022-02-15 16:12:52,2022-02-15 16:12:59,6.735s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.82,,,2022-02-15 16:12:52,2022-02-15 16:12:53,1.273s,PASSED
+"navigateToUrl(""https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f"")",Chrome 98.0.4758.82,,,2022-02-15 16:12:53,2022-02-15 16:12:54,1.089s,PASSED
+"setText(findTestObject(""Page_Login - Unit4 ERP/input_User name_ctl10name""), UserName)",Chrome 98.0.4758.82,,,2022-02-15 16:12:54,2022-02-15 16:12:55,0.757s,PASSED
+"setText(findTestObject(""Page_Login - Unit4 ERP/input_Client_ctl10client""), Client)",Chrome 98.0.4758.82,,,2022-02-15 16:12:55,2022-02-15 16:12:56,0.647s,PASSED
+"setText(findTestObject(""Page_Login - Unit4 ERP/input_Password_ctl10password""), Password)",Chrome 98.0.4758.82,,,2022-02-15 16:12:56,2022-02-15 16:12:57,0.656s,PASSED
+"click(findTestObject(""Page_Login - Unit4 ERP/Login_Button""))",Chrome 98.0.4758.82,,,2022-02-15 16:12:57,2022-02-15 16:12:58,1.075s,PASSED
+"verifyElementPresent(findTestObject(""Page_Login - Unit4 ERP/td""), 0)",Chrome 98.0.4758.82,,,2022-02-15 16:12:58,2022-02-15 16:12:58,0.436s,PASSED
+closeBrowser(),Chrome 98.0.4758.82,,,2022-02-15 16:12:58,2022-02-15 16:12:59,0.643s,PASSED
+,,,,,,,
+Test Cases/Login/Negative/Failed login,Chrome 98.0.4758.82,,,2022-02-15 16:12:59,2022-02-15 16:13:06,7.181s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.82,,,2022-02-15 16:12:59,2022-02-15 16:13:00,1.184s,PASSED
+"navigateToUrl(""https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f"")",Chrome 98.0.4758.82,,,2022-02-15 16:13:00,2022-02-15 16:13:01,1.090s,PASSED
+"setText(findTestObject(""Page_Login - Unit4 ERP/input_User name_ctl10name""), UserName)",Chrome 98.0.4758.82,,,2022-02-15 16:13:01,2022-02-15 16:13:02,0.764s,PASSED
+"setText(findTestObject(""Page_Login - Unit4 ERP/input_Client_ctl10client""), Client)",Chrome 98.0.4758.82,,,2022-02-15 16:13:02,2022-02-15 16:13:03,0.648s,PASSED
+"setText(findTestObject(""Page_Login - Unit4 ERP/input_Password_ctl10password""), Password)",Chrome 98.0.4758.82,,,2022-02-15 16:13:03,2022-02-15 16:13:03,0.668s,PASSED
+"click(findTestObject(""Page_Login - Unit4 ERP/Login_Button""))",Chrome 98.0.4758.82,,,2022-02-15 16:13:03,2022-02-15 16:13:04,1.058s,PASSED
+"verifyElementPresent(findTestObject(""Page_Login - Unit4 ERP/td""), 0)",Chrome 98.0.4758.82,,,2022-02-15 16:13:04,2022-02-15 16:13:05,0.436s,PASSED
+closeBrowser(),Chrome 98.0.4758.82,,,2022-02-15 16:13:05,2022-02-15 16:13:06,1.138s,PASSED
+,,,,,,,
+Test Cases/Login/Negative/Failed login,Chrome 98.0.4758.82,,,2022-02-15 16:13:06,2022-02-15 16:13:13,6.881s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.82,,,2022-02-15 16:13:06,2022-02-15 16:13:07,1.256s,PASSED
+"navigateToUrl(""https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f"")",Chrome 98.0.4758.82,,,2022-02-15 16:13:07,2022-02-15 16:13:08,1.193s,PASSED
+"setText(findTestObject(""Page_Login - Unit4 ERP/input_User name_ctl10name""), UserName)",Chrome 98.0.4758.82,,,2022-02-15 16:13:08,2022-02-15 16:13:09,0.768s,PASSED
+"setText(findTestObject(""Page_Login - Unit4 ERP/input_Client_ctl10client""), Client)",Chrome 98.0.4758.82,,,2022-02-15 16:13:09,2022-02-15 16:13:10,0.658s,PASSED
+"setText(findTestObject(""Page_Login - Unit4 ERP/input_Password_ctl10password""), Password)",Chrome 98.0.4758.82,,,2022-02-15 16:13:10,2022-02-15 16:13:11,0.651s,PASSED
+"click(findTestObject(""Page_Login - Unit4 ERP/Login_Button""))",Chrome 98.0.4758.82,,,2022-02-15 16:13:11,2022-02-15 16:13:12,1.068s,PASSED
+"verifyElementPresent(findTestObject(""Page_Login - Unit4 ERP/td""), 0)",Chrome 98.0.4758.82,,,2022-02-15 16:13:12,2022-02-15 16:13:12,0.430s,PASSED
+closeBrowser(),Chrome 98.0.4758.82,,,2022-02-15 16:13:12,2022-02-15 16:13:13,0.674s,PASSED
+,,,,,,,
+Test Cases/Login/Positive/Successful login,Chrome 98.0.4758.82,,,2022-02-15 16:13:13,2022-02-15 16:13:23,10.221s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.82,,,2022-02-15 16:13:13,2022-02-15 16:13:15,1.286s,PASSED
+"navigateToUrl(""https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f"")",Chrome 98.0.4758.82,,,2022-02-15 16:13:15,2022-02-15 16:13:16,1.609s,PASSED
+"setText(findTestObject(""Page_Login - Unit4 ERP/input_User name_ctl10name""), UserName)",Chrome 98.0.4758.82,,,2022-02-15 16:13:16,2022-02-15 16:13:17,0.773s,PASSED
+"setText(findTestObject(""Page_Login - Unit4 ERP/input_Client_ctl10client""), Client)",Chrome 98.0.4758.82,,,2022-02-15 16:13:17,2022-02-15 16:13:18,0.658s,PASSED
+"setText(findTestObject(""Page_Login - Unit4 ERP/input_Password_ctl10password""), Password)",Chrome 98.0.4758.82,,,2022-02-15 16:13:18,2022-02-15 16:13:18,0.660s,PASSED
+"click(findTestObject(""Page_Login - Unit4 ERP/Login_Button""))",Chrome 98.0.4758.82,,,2022-02-15 16:13:18,2022-02-15 16:13:20,2.018s,PASSED
+"verifyElementPresent(findTestObject(""Page_Menu - Unit4 ERP/img_PSO 3.1 Global_u4_applicationlogo-1020""), 0)",Chrome 98.0.4758.82,,,2022-02-15 16:13:20,2022-02-15 16:13:22,2.011s,PASSED
+closeBrowser(),Chrome 98.0.4758.82,,,2022-02-15 16:13:22,2022-02-15 16:13:23,0.683s,PASSED

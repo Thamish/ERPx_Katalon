@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="LoginTests" time="99.274" tests="13" failures="0" errors="0">
+   <testsuite name="LoginTests" tests="13" failures="0" errors="0" time="99.274" skipped="0" timestamp="2022-02-15 16:11:44" hostname="thami - DESKTOP-F2RQ6N2" id="Test Suites/LoginTests">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\thami\\git\\ERPx_Katalon\\Reports\\20220215_161140\\LoginTests\\20220215_161140"/>
+         <property name="logFiles" value="C:\\Users\\thami\\git\\ERPx_Katalon\\Reports\\20220215_161140\\LoginTests\\20220215_161140\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="thami - DESKTOP-F2RQ6N2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 98.0.4758.82"/>
+         <property name="hostAddress" value="192.168.0.15"/>
+         <property name="sessionId" value="946dced7982dcc22fc4449ba8cbf0cbe"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/Negative/Failed login" time="11.377" classname="Test Cases/Login/Negative/Failed login" status="PASSED">
+         <system-out><![CDATA[2022-02-15 16:11:44 - [TEST_CASE][PASSED] - Test Cases/Login/Negative/Failed login: Test Cases/Login/Negative/Failed login
+
+2022-02-15 16:11:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-15 16:11:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-15 16:11:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-02-15 16:11:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-15 16:11:49 - [TEST_STEP][PASSED] - navigateToUrl("https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f"): Navigate to 'https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f' successfully
+
+2022-02-15 16:11:51 - [MESSAGE][PASSED] - Navigate to 'https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f' successfully
+
+2022-02-15 16:11:51 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - Unit4 ERP/input_User name_ctl10name"), UserName): Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_User name_ctl10name'
+
+2022-02-15 16:11:52 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_User name_ctl10name'
+
+2022-02-15 16:11:52 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - Unit4 ERP/input_Client_ctl10client"), Client): Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_Client_ctl10client'
+
+2022-02-15 16:11:52 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_Client_ctl10client'
+
+2022-02-15 16:11:52 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - Unit4 ERP/input_Password_ctl10password"), Password): Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_Password_ctl10password'
+
+2022-02-15 16:11:53 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_Password_ctl10password'
+
+2022-02-15 16:11:53 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login - Unit4 ERP/Login_Button")): Object: 'Object Repository/Page_Login - Unit4 ERP/Login_Button' is clicked on
+
+2022-02-15 16:11:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - Unit4 ERP/Login_Button' is clicked on
+
+2022-02-15 16:11:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Login - Unit4 ERP/td"), 0): Object 'Object Repository/Page_Login - Unit4 ERP/td' is present
+
+2022-02-15 16:11:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-15 16:11:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login - Unit4 ERP/td' is present
+
+2022-02-15 16:11:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-02-15 16:11:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Negative/Failed login" time="7.094" classname="Test Cases/Login/Negative/Failed login" status="PASSED">
+         <system-out><![CDATA[2022-02-15 16:11:55 - [TEST_CASE][PASSED] - Test Cases/Login/Negative/Failed login: Test Cases/Login/Negative/Failed login
+
+2022-02-15 16:11:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-15 16:11:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-15 16:11:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-02-15 16:11:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-15 16:11:57 - [TEST_STEP][PASSED] - navigateToUrl("https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f"): Navigate to 'https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f' successfully
+
+2022-02-15 16:11:58 - [MESSAGE][PASSED] - Navigate to 'https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f' successfully
+
+2022-02-15 16:11:58 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - Unit4 ERP/input_User name_ctl10name"), UserName): Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_User name_ctl10name'
+
+2022-02-15 16:11:59 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_User name_ctl10name'
+
+2022-02-15 16:11:59 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - Unit4 ERP/input_Client_ctl10client"), Client): Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_Client_ctl10client'
+
+2022-02-15 16:12:00 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_Client_ctl10client'
+
+2022-02-15 16:12:00 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - Unit4 ERP/input_Password_ctl10password"), Password): Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_Password_ctl10password'
+
+2022-02-15 16:12:00 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_Password_ctl10password'
+
+2022-02-15 16:12:00 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login - Unit4 ERP/Login_Button")): Object: 'Object Repository/Page_Login - Unit4 ERP/Login_Button' is clicked on
+
+2022-02-15 16:12:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - Unit4 ERP/Login_Button' is clicked on
+
+2022-02-15 16:12:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Login - Unit4 ERP/td"), 0): Object 'Object Repository/Page_Login - Unit4 ERP/td' is present
+
+2022-02-15 16:12:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-15 16:12:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login - Unit4 ERP/td' is present
+
+2022-02-15 16:12:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-02-15 16:12:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Negative/Failed login" time="7.061" classname="Test Cases/Login/Negative/Failed login" status="PASSED">
+         <system-out><![CDATA[2022-02-15 16:12:03 - [TEST_CASE][PASSED] - Test Cases/Login/Negative/Failed login: Test Cases/Login/Negative/Failed login
+
+2022-02-15 16:12:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-15 16:12:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-15 16:12:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-02-15 16:12:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-15 16:12:04 - [TEST_STEP][PASSED] - navigateToUrl("https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f"): Navigate to 'https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f' successfully
+
+2022-02-15 16:12:05 - [MESSAGE][PASSED] - Navigate to 'https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f' successfully
+
+2022-02-15 16:12:05 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - Unit4 ERP/input_User name_ctl10name"), UserName): Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_User name_ctl10name'
+
+2022-02-15 16:12:06 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_User name_ctl10name'
+
+2022-02-15 16:12:06 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - Unit4 ERP/input_Client_ctl10client"), Client): Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_Client_ctl10client'
+
+2022-02-15 16:12:07 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_Client_ctl10client'
+
+2022-02-15 16:12:07 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - Unit4 ERP/input_Password_ctl10password"), Password): Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_Password_ctl10password'
+
+2022-02-15 16:12:07 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_Password_ctl10password'
+
+2022-02-15 16:12:07 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login - Unit4 ERP/Login_Button")): Object: 'Object Repository/Page_Login - Unit4 ERP/Login_Button' is clicked on
+
+2022-02-15 16:12:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - Unit4 ERP/Login_Button' is clicked on
+
+2022-02-15 16:12:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Login - Unit4 ERP/td"), 0): Object 'Object Repository/Page_Login - Unit4 ERP/td' is present
+
+2022-02-15 16:12:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-15 16:12:09 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login - Unit4 ERP/td' is present
+
+2022-02-15 16:12:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-02-15 16:12:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Negative/Failed login" time="7.175" classname="Test Cases/Login/Negative/Failed login" status="PASSED">
+         <system-out><![CDATA[2022-02-15 16:12:10 - [TEST_CASE][PASSED] - Test Cases/Login/Negative/Failed login: Test Cases/Login/Negative/Failed login
+
+2022-02-15 16:12:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-15 16:12:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-15 16:12:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-02-15 16:12:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-15 16:12:11 - [TEST_STEP][PASSED] - navigateToUrl("https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f"): Navigate to 'https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f' successfully
+
+2022-02-15 16:12:12 - [MESSAGE][PASSED] - Navigate to 'https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f' successfully
+
+2022-02-15 16:12:12 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - Unit4 ERP/input_User name_ctl10name"), UserName): Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_User name_ctl10name'
+
+2022-02-15 16:12:13 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_User name_ctl10name'
+
+2022-02-15 16:12:13 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - Unit4 ERP/input_Client_ctl10client"), Client): Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_Client_ctl10client'
+
+2022-02-15 16:12:14 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_Client_ctl10client'
+
+2022-02-15 16:12:14 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - Unit4 ERP/input_Password_ctl10password"), Password): Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_Password_ctl10password'
+
+2022-02-15 16:12:15 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_Password_ctl10password'
+
+2022-02-15 16:12:15 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login - Unit4 ERP/Login_Button")): Object: 'Object Repository/Page_Login - Unit4 ERP/Login_Button' is clicked on
+
+2022-02-15 16:12:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - Unit4 ERP/Login_Button' is clicked on
+
+2022-02-15 16:12:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Login - Unit4 ERP/td"), 0): Object 'Object Repository/Page_Login - Unit4 ERP/td' is present
+
+2022-02-15 16:12:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-15 16:12:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login - Unit4 ERP/td' is present
+
+2022-02-15 16:12:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-02-15 16:12:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Negative/Failed login" time="6.938" classname="Test Cases/Login/Negative/Failed login" status="PASSED">
+         <system-out><![CDATA[2022-02-15 16:12:17 - [TEST_CASE][PASSED] - Test Cases/Login/Negative/Failed login: Test Cases/Login/Negative/Failed login
+
+2022-02-15 16:12:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-15 16:12:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-15 16:12:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-02-15 16:12:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-15 16:12:18 - [TEST_STEP][PASSED] - navigateToUrl("https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f"): Navigate to 'https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f' successfully
+
+2022-02-15 16:12:19 - [MESSAGE][PASSED] - Navigate to 'https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f' successfully
+
+2022-02-15 16:12:19 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - Unit4 ERP/input_User name_ctl10name"), UserName): Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_User name_ctl10name'
+
+2022-02-15 16:12:20 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_User name_ctl10name'
+
+2022-02-15 16:12:20 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - Unit4 ERP/input_Client_ctl10client"), Client): Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_Client_ctl10client'
+
+2022-02-15 16:12:21 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_Client_ctl10client'
+
+2022-02-15 16:12:21 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - Unit4 ERP/input_Password_ctl10password"), Password): Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_Password_ctl10password'
+
+2022-02-15 16:12:22 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_Password_ctl10password'
+
+2022-02-15 16:12:22 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login - Unit4 ERP/Login_Button")): Object: 'Object Repository/Page_Login - Unit4 ERP/Login_Button' is clicked on
+
+2022-02-15 16:12:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - Unit4 ERP/Login_Button' is clicked on
+
+2022-02-15 16:12:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Login - Unit4 ERP/td"), 0): Object 'Object Repository/Page_Login - Unit4 ERP/td' is present
+
+2022-02-15 16:12:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-15 16:12:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login - Unit4 ERP/td' is present
+
+2022-02-15 16:12:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-02-15 16:12:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Negative/Failed login" time="6.908" classname="Test Cases/Login/Negative/Failed login" status="PASSED">
+         <system-out><![CDATA[2022-02-15 16:12:24 - [TEST_CASE][PASSED] - Test Cases/Login/Negative/Failed login: Test Cases/Login/Negative/Failed login
+
+2022-02-15 16:12:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-15 16:12:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-15 16:12:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-02-15 16:12:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-15 16:12:25 - [TEST_STEP][PASSED] - navigateToUrl("https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f"): Navigate to 'https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f' successfully
+
+2022-02-15 16:12:26 - [MESSAGE][PASSED] - Navigate to 'https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f' successfully
+
+2022-02-15 16:12:26 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - Unit4 ERP/input_User name_ctl10name"), UserName): Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_User name_ctl10name'
+
+2022-02-15 16:12:27 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_User name_ctl10name'
+
+2022-02-15 16:12:27 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - Unit4 ERP/input_Client_ctl10client"), Client): Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_Client_ctl10client'
+
+2022-02-15 16:12:28 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_Client_ctl10client'
+
+2022-02-15 16:12:28 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - Unit4 ERP/input_Password_ctl10password"), Password): Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_Password_ctl10password'
+
+2022-02-15 16:12:28 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_Password_ctl10password'
+
+2022-02-15 16:12:28 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login - Unit4 ERP/Login_Button")): Object: 'Object Repository/Page_Login - Unit4 ERP/Login_Button' is clicked on
+
+2022-02-15 16:12:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - Unit4 ERP/Login_Button' is clicked on
+
+2022-02-15 16:12:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Login - Unit4 ERP/td"), 0): Object 'Object Repository/Page_Login - Unit4 ERP/td' is present
+
+2022-02-15 16:12:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-15 16:12:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login - Unit4 ERP/td' is present
+
+2022-02-15 16:12:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-02-15 16:12:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Negative/Failed login" time="6.952" classname="Test Cases/Login/Negative/Failed login" status="PASSED">
+         <system-out><![CDATA[2022-02-15 16:12:31 - [TEST_CASE][PASSED] - Test Cases/Login/Negative/Failed login: Test Cases/Login/Negative/Failed login
+
+2022-02-15 16:12:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-15 16:12:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-15 16:12:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-02-15 16:12:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-15 16:12:32 - [TEST_STEP][PASSED] - navigateToUrl("https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f"): Navigate to 'https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f' successfully
+
+2022-02-15 16:12:33 - [MESSAGE][PASSED] - Navigate to 'https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f' successfully
+
+2022-02-15 16:12:33 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - Unit4 ERP/input_User name_ctl10name"), UserName): Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_User name_ctl10name'
+
+2022-02-15 16:12:34 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_User name_ctl10name'
+
+2022-02-15 16:12:34 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - Unit4 ERP/input_Client_ctl10client"), Client): Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_Client_ctl10client'
+
+2022-02-15 16:12:35 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_Client_ctl10client'
+
+2022-02-15 16:12:35 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - Unit4 ERP/input_Password_ctl10password"), Password): Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_Password_ctl10password'
+
+2022-02-15 16:12:35 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_Password_ctl10password'
+
+2022-02-15 16:12:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login - Unit4 ERP/Login_Button")): Object: 'Object Repository/Page_Login - Unit4 ERP/Login_Button' is clicked on
+
+2022-02-15 16:12:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - Unit4 ERP/Login_Button' is clicked on
+
+2022-02-15 16:12:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Login - Unit4 ERP/td"), 0): Object 'Object Repository/Page_Login - Unit4 ERP/td' is present
+
+2022-02-15 16:12:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-15 16:12:37 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login - Unit4 ERP/td' is present
+
+2022-02-15 16:12:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-02-15 16:12:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Negative/Failed login" time="7.526" classname="Test Cases/Login/Negative/Failed login" status="PASSED">
+         <system-out><![CDATA[2022-02-15 16:12:38 - [TEST_CASE][PASSED] - Test Cases/Login/Negative/Failed login: Test Cases/Login/Negative/Failed login
+
+2022-02-15 16:12:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-15 16:12:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-15 16:12:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-02-15 16:12:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-15 16:12:39 - [TEST_STEP][PASSED] - navigateToUrl("https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f"): Navigate to 'https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f' successfully
+
+2022-02-15 16:12:41 - [MESSAGE][PASSED] - Navigate to 'https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f' successfully
+
+2022-02-15 16:12:41 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - Unit4 ERP/input_User name_ctl10name"), UserName): Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_User name_ctl10name'
+
+2022-02-15 16:12:41 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_User name_ctl10name'
+
+2022-02-15 16:12:41 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - Unit4 ERP/input_Client_ctl10client"), Client): Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_Client_ctl10client'
+
+2022-02-15 16:12:42 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_Client_ctl10client'
+
+2022-02-15 16:12:42 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - Unit4 ERP/input_Password_ctl10password"), Password): Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_Password_ctl10password'
+
+2022-02-15 16:12:43 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_Password_ctl10password'
+
+2022-02-15 16:12:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login - Unit4 ERP/Login_Button")): Object: 'Object Repository/Page_Login - Unit4 ERP/Login_Button' is clicked on
+
+2022-02-15 16:12:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - Unit4 ERP/Login_Button' is clicked on
+
+2022-02-15 16:12:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Login - Unit4 ERP/td"), 0): Object 'Object Repository/Page_Login - Unit4 ERP/td' is present
+
+2022-02-15 16:12:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-15 16:12:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login - Unit4 ERP/td' is present
+
+2022-02-15 16:12:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-02-15 16:12:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Negative/Failed login" time="6.783" classname="Test Cases/Login/Negative/Failed login" status="PASSED">
+         <system-out><![CDATA[2022-02-15 16:12:45 - [TEST_CASE][PASSED] - Test Cases/Login/Negative/Failed login: Test Cases/Login/Negative/Failed login
+
+2022-02-15 16:12:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-15 16:12:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-15 16:12:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-02-15 16:12:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-15 16:12:47 - [TEST_STEP][PASSED] - navigateToUrl("https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f"): Navigate to 'https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f' successfully
+
+2022-02-15 16:12:48 - [MESSAGE][PASSED] - Navigate to 'https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f' successfully
+
+2022-02-15 16:12:48 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - Unit4 ERP/input_User name_ctl10name"), UserName): Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_User name_ctl10name'
+
+2022-02-15 16:12:48 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_User name_ctl10name'
+
+2022-02-15 16:12:48 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - Unit4 ERP/input_Client_ctl10client"), Client): Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_Client_ctl10client'
+
+2022-02-15 16:12:49 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_Client_ctl10client'
+
+2022-02-15 16:12:49 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - Unit4 ERP/input_Password_ctl10password"), Password): Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_Password_ctl10password'
+
+2022-02-15 16:12:50 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_Password_ctl10password'
+
+2022-02-15 16:12:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login - Unit4 ERP/Login_Button")): Object: 'Object Repository/Page_Login - Unit4 ERP/Login_Button' is clicked on
+
+2022-02-15 16:12:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - Unit4 ERP/Login_Button' is clicked on
+
+2022-02-15 16:12:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Login - Unit4 ERP/td"), 0): Object 'Object Repository/Page_Login - Unit4 ERP/td' is present
+
+2022-02-15 16:12:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-15 16:12:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login - Unit4 ERP/td' is present
+
+2022-02-15 16:12:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-02-15 16:12:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Negative/Failed login" time="6.735" classname="Test Cases/Login/Negative/Failed login" status="PASSED">
+         <system-out><![CDATA[2022-02-15 16:12:52 - [TEST_CASE][PASSED] - Test Cases/Login/Negative/Failed login: Test Cases/Login/Negative/Failed login
+
+2022-02-15 16:12:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-15 16:12:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-15 16:12:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-02-15 16:12:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-15 16:12:53 - [TEST_STEP][PASSED] - navigateToUrl("https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f"): Navigate to 'https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f' successfully
+
+2022-02-15 16:12:54 - [MESSAGE][PASSED] - Navigate to 'https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f' successfully
+
+2022-02-15 16:12:54 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - Unit4 ERP/input_User name_ctl10name"), UserName): Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_User name_ctl10name'
+
+2022-02-15 16:12:55 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_User name_ctl10name'
+
+2022-02-15 16:12:55 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - Unit4 ERP/input_Client_ctl10client"), Client): Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_Client_ctl10client'
+
+2022-02-15 16:12:56 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_Client_ctl10client'
+
+2022-02-15 16:12:56 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - Unit4 ERP/input_Password_ctl10password"), Password): Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_Password_ctl10password'
+
+2022-02-15 16:12:57 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_Password_ctl10password'
+
+2022-02-15 16:12:57 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login - Unit4 ERP/Login_Button")): Object: 'Object Repository/Page_Login - Unit4 ERP/Login_Button' is clicked on
+
+2022-02-15 16:12:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - Unit4 ERP/Login_Button' is clicked on
+
+2022-02-15 16:12:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Login - Unit4 ERP/td"), 0): Object 'Object Repository/Page_Login - Unit4 ERP/td' is present
+
+2022-02-15 16:12:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-15 16:12:58 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login - Unit4 ERP/td' is present
+
+2022-02-15 16:12:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-02-15 16:12:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Negative/Failed login" time="7.181" classname="Test Cases/Login/Negative/Failed login" status="PASSED">
+         <system-out><![CDATA[2022-02-15 16:12:59 - [TEST_CASE][PASSED] - Test Cases/Login/Negative/Failed login: Test Cases/Login/Negative/Failed login
+
+2022-02-15 16:12:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-15 16:12:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-15 16:12:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-02-15 16:13:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-15 16:13:00 - [TEST_STEP][PASSED] - navigateToUrl("https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f"): Navigate to 'https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f' successfully
+
+2022-02-15 16:13:01 - [MESSAGE][PASSED] - Navigate to 'https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f' successfully
+
+2022-02-15 16:13:01 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - Unit4 ERP/input_User name_ctl10name"), UserName): Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_User name_ctl10name'
+
+2022-02-15 16:13:02 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_User name_ctl10name'
+
+2022-02-15 16:13:02 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - Unit4 ERP/input_Client_ctl10client"), Client): Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_Client_ctl10client'
+
+2022-02-15 16:13:03 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_Client_ctl10client'
+
+2022-02-15 16:13:03 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - Unit4 ERP/input_Password_ctl10password"), Password): Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_Password_ctl10password'
+
+2022-02-15 16:13:03 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_Password_ctl10password'
+
+2022-02-15 16:13:03 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login - Unit4 ERP/Login_Button")): Object: 'Object Repository/Page_Login - Unit4 ERP/Login_Button' is clicked on
+
+2022-02-15 16:13:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - Unit4 ERP/Login_Button' is clicked on
+
+2022-02-15 16:13:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Login - Unit4 ERP/td"), 0): Object 'Object Repository/Page_Login - Unit4 ERP/td' is present
+
+2022-02-15 16:13:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-15 16:13:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login - Unit4 ERP/td' is present
+
+2022-02-15 16:13:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-02-15 16:13:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Negative/Failed login" time="6.881" classname="Test Cases/Login/Negative/Failed login" status="PASSED">
+         <system-out><![CDATA[2022-02-15 16:13:06 - [TEST_CASE][PASSED] - Test Cases/Login/Negative/Failed login: Test Cases/Login/Negative/Failed login
+
+2022-02-15 16:13:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-15 16:13:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-15 16:13:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-02-15 16:13:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-15 16:13:07 - [TEST_STEP][PASSED] - navigateToUrl("https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f"): Navigate to 'https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f' successfully
+
+2022-02-15 16:13:08 - [MESSAGE][PASSED] - Navigate to 'https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f' successfully
+
+2022-02-15 16:13:08 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - Unit4 ERP/input_User name_ctl10name"), UserName): Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_User name_ctl10name'
+
+2022-02-15 16:13:09 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_User name_ctl10name'
+
+2022-02-15 16:13:09 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - Unit4 ERP/input_Client_ctl10client"), Client): Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_Client_ctl10client'
+
+2022-02-15 16:13:10 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_Client_ctl10client'
+
+2022-02-15 16:13:10 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - Unit4 ERP/input_Password_ctl10password"), Password): Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_Password_ctl10password'
+
+2022-02-15 16:13:11 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_Password_ctl10password'
+
+2022-02-15 16:13:11 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login - Unit4 ERP/Login_Button")): Object: 'Object Repository/Page_Login - Unit4 ERP/Login_Button' is clicked on
+
+2022-02-15 16:13:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - Unit4 ERP/Login_Button' is clicked on
+
+2022-02-15 16:13:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Login - Unit4 ERP/td"), 0): Object 'Object Repository/Page_Login - Unit4 ERP/td' is present
+
+2022-02-15 16:13:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-15 16:13:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login - Unit4 ERP/td' is present
+
+2022-02-15 16:13:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-02-15 16:13:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Positive/Successful login" time="10.221" classname="Test Cases/Login/Positive/Successful login" status="PASSED">
+         <system-out><![CDATA[2022-02-15 16:13:13 - [TEST_CASE][PASSED] - Test Cases/Login/Positive/Successful login: Test Cases/Login/Positive/Successful login
+
+2022-02-15 16:13:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-15 16:13:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-15 16:13:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-02-15 16:13:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-15 16:13:15 - [TEST_STEP][PASSED] - navigateToUrl("https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f"): Navigate to 'https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f' successfully
+
+2022-02-15 16:13:16 - [MESSAGE][PASSED] - Navigate to 'https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f' successfully
+
+2022-02-15 16:13:16 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - Unit4 ERP/input_User name_ctl10name"), UserName): Text 'Unit4' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_User name_ctl10name'
+
+2022-02-15 16:13:17 - [MESSAGE][PASSED] - Text 'Unit4' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_User name_ctl10name'
+
+2022-02-15 16:13:17 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - Unit4 ERP/input_Client_ctl10client"), Client): Text 'X10' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_Client_ctl10client'
+
+2022-02-15 16:13:18 - [MESSAGE][PASSED] - Text 'X10' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_Client_ctl10client'
+
+2022-02-15 16:13:18 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - Unit4 ERP/input_Password_ctl10password"), Password): Text 'ERP7sdx2021%' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_Password_ctl10password'
+
+2022-02-15 16:13:18 - [MESSAGE][PASSED] - Text 'ERP7sdx2021%' is set on object 'Object Repository/Page_Login - Unit4 ERP/input_Password_ctl10password'
+
+2022-02-15 16:13:18 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login - Unit4 ERP/Login_Button")): Object: 'Object Repository/Page_Login - Unit4 ERP/Login_Button' is clicked on
+
+2022-02-15 16:13:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - Unit4 ERP/Login_Button' is clicked on
+
+2022-02-15 16:13:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Menu - Unit4 ERP/img_PSO 3.1 Global_u4_applicationlogo-1020"), 0): Object 'Object Repository/Page_Menu - Unit4 ERP/img_PSO 3.1 Global_u4_applicationlogo-1020' is present
+
+2022-02-15 16:13:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-15 16:13:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Menu - Unit4 ERP/img_PSO 3.1 Global_u4_applicationlogo-1020' is present
+
+2022-02-15 16:13:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-02-15 16:13:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-02-15 16:11:44 - [TEST_SUITE][PASSED] - LoginTests: Test Cases/Login/Positive/Successful login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

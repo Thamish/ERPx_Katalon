@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Failed login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f4189591-29ff-4231-b17c-a635ab84381b</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('LoginDataIncorrect').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>ceafaed4-01d1-4a06-839a-56faa36106da</id>
+      <masked>false</masked>
+      <name>UserName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('LoginDataIncorrect').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>59fd2461-7641-4753-8b5d-1f34daf3b707</id>
+      <masked>false</masked>
+      <name>Client</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('LoginDataIncorrect').getValue(3, 1)</defaultValue>
+      <description></description>
+      <id>4dd77b5d-1d84-4193-b4a3-4681749ff8b3</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>
