@@ -31,5 +31,3 @@ WebUI.click(findTestObject('Page_Login - Unit4 ERP/Login_Button'))
 
 WebUI.verifyElementPresent(findTestObject('Page_Menu - Unit4 ERP/img_PSO 3.1 Global_u4_applicationlogo-1020'), 0)
 
-WebUI.closeBrowser()
-

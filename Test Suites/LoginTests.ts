@@ -59,22 +59,22 @@
          <testDataId>Data Files/LoginDataCorrect</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>9d72223a-61b7-4de4-9c89-b3ab03757749</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>UserName</value>
-         <variableId>ea5b2a3a-ccc5-422a-b4f3-44052477ddec</variableId>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>647fed0b-f179-4098-a82d-93ee743e8f2f</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>9d72223a-61b7-4de4-9c89-b3ab03757749</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Client</value>
-         <variableId>fa9c7789-4aa0-48e8-b26c-3fca8cc5f0cb</variableId>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5c4b71f9-7015-46e7-996d-3580e960aa3b</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>9d72223a-61b7-4de4-9c89-b3ab03757749</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Password</value>
-         <variableId>0ae2a632-2eb0-4fc0-a703-05a882924b73</variableId>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>15e0e578-dbb0-4862-a6a5-633a71c89336</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

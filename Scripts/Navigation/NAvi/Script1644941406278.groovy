@@ -17,17 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Login/Positive/Successful login'), [('UserName') : findTestData('LoginDataCorrect').getValue(1, 1)
+        , ('Client') : findTestData('LoginDataCorrect').getValue(2, 1), ('Password') : findTestData('LoginDataCorrect').getValue(3, 1)], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f')
+WebUI.click(findTestObject('Object Repository/Page_Menu - Unit4 ERP/div_Procurement'))
 
-WebUI.setText(findTestObject('Page_Login - Unit4 ERP/input_User name_ctl10name'), UserName)
+WebUI.click(findTestObject('Object Repository/Page_Menu - Unit4 ERP/div_Suppliers'))
 
-WebUI.setText(findTestObject('Page_Login - Unit4 ERP/input_Client_ctl10client'), Client)
+WebUI.click(findTestObject('Object Repository/Page_Suppliers - Unit4 ERP/h1_Suppliers'))
 
-WebUI.setText(findTestObject('Page_Login - Unit4 ERP/input_Password_ctl10password'), Password)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Suppliers - Unit4 ERP/h1_Suppliers'), 0)
 
-WebUI.click(findTestObject('Page_Login - Unit4 ERP/Login_Button'))
-
-WebUI.verifyElementText(findTestObject(Page_name), 'Forms')
+WebUI.closeBrowser()
 
