@@ -6,11 +6,11 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>85019334-13e0-437f-ba6e-f59b51ce59f2</dataFileGUID>
-   <dataSourceUrl>C:\Users\thami\Desktop\katProj\Katalon_Studio_Windows_64-8.2.0\LoginData.xlsx</dataSourceUrl>
+   <dataSourceUrl>C:\Users\44788\git\ERPx_Katalon\LoginData.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>Incorrect</sheetName>
+   <sheetName>Correct</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>

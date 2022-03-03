@@ -1,2 +1,2 @@
 # ERPx_Katalon
-By Tolga, Thamish & Zachary
+By Tolga, Thamish & Zachary O'M
