@@ -3,7 +3,7 @@
    <description></description>
    <name>frame_contentcontainer</name>
    <tag></tag>
-   <elementGuidId>e0a1479d-4715-4246-af7c-deb02be82ba9</elementGuidId>
+   <elementGuidId>31c28f13-2ce0-401c-b1d4-74fecd63c170</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -91,7 +91,7 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Page_Suppliers - Unit4 ERP/iframe_Suppliers_ext-gen2409</value>
+      <value>Object Repository/Page_Suppliers - Unit4 ERP/iframe_Suppliers_ext-gen2404</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

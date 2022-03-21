@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Nav" time="15.507" tests="1" failures="0" errors="0">
+   <testsuite name="Nav" tests="1" failures="0" errors="0" time="15.507" skipped="0" timestamp="2022-03-18 14:09:38" hostname="thami - DESKTOP-F2RQ6N2" id="Test Suites/Nav">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\thami\\Documents\\GitHub\\ERPx_Katalon\\Reports\\20220318_140934\\Nav\\20220318_140934"/>
+         <property name="logFiles" value="C:\\Users\\thami\\Documents\\GitHub\\ERPx_Katalon\\Reports\\20220318_140934\\Nav\\20220318_140934\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="thami - DESKTOP-F2RQ6N2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 99.0.4844.74"/>
+         <property name="hostAddress" value="192.168.0.15"/>
+         <property name="sessionId" value="7609a4438b82b2b43738f5e3492431bb"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Navigation/Suppliers" time="5.631" classname="Test Cases/Navigation/Suppliers" status="PASSED">
+         <system-out><![CDATA[2022-03-18 14:09:47 - [TEST_CASE][PASSED] - Test Cases/Navigation/Suppliers: Test Cases/Navigation/Suppliers
+
+2022-03-18 14:09:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Menu - Unit4 ERP/div_Procurement")): Object: 'Object Repository/Page_Menu - Unit4 ERP/div_Procurement' is clicked on
+
+2022-03-18 14:09:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Menu - Unit4 ERP/div_Procurement' is clicked on
+
+2022-03-18 14:09:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Menu - Unit4 ERP/div_Suppliers_1")): Object: 'Object Repository/Page_Menu - Unit4 ERP/div_Suppliers_1' is clicked on
+
+2022-03-18 14:09:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Menu - Unit4 ERP/div_Suppliers_1' is clicked on
+
+2022-03-18 14:09:51 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Suppliers - Unit4 ERP/h1_Suppliers"), "Suppliers"): Actual text and expected text of test object 'Object Repository/Page_Suppliers - Unit4 ERP/h1_Suppliers' are matched.
+
+2022-03-18 14:09:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Suppliers - Unit4 ERP/h1_Suppliers' are matched.
+
+2022-03-18 14:09:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-18 14:09:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-18 14:09:38 - [TEST_SUITE][PASSED] - Nav: Test Cases/Navigation/Suppliers]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
