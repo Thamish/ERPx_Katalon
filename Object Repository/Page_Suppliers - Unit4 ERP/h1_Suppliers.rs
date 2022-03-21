@@ -3,7 +3,7 @@
    <description></description>
    <name>h1_Suppliers</name>
    <tag></tag>
-   <elementGuidId>c1606145-2499-4fba-8076-fa6b434dfb93</elementGuidId>
+   <elementGuidId>000e8cfa-0b3a-44ec-b2b1-896d80afb567</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

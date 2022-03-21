@@ -3,15 +3,15 @@
    <description></description>
    <name>div_Procurement</name>
    <tag></tag>
-   <elementGuidId>b65cc819-2cd2-441c-bc62-af03c2324902</elementGuidId>
+   <elementGuidId>d06731ac-f692-465a-9c19-7f9803bc286a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='u4_twolinestab-1152-multilineLine-1']</value>
+         <value>//div[@id='u4_twolinestab-1159-multilineLine-1']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#u4_twolinestab-1152-multilineLine-1</value>
+         <value>#u4_twolinestab-1159-multilineLine-1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>u4_twolinestab-1152-multilineLine-1</value>
+      <value>u4_twolinestab-1159-multilineLine-1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,21 +49,21 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;u4_twolinestab-1152-multilineLine-1&quot;)</value>
+      <value>id(&quot;u4_twolinestab-1159-multilineLine-1&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//div[@id='u4_twolinestab-1152-multilineLine-1']</value>
+      <value>//div[@id='u4_twolinestab-1159-multilineLine-1']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='u4_twolinestab-1152-multilineWrap']/div[2]</value>
+      <value>//div[@id='u4_twolinestab-1159-multilineWrap']/div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +112,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[@id = 'u4_twolinestab-1152-multilineLine-1' and (text() = 'Procurement' or . = 'Procurement')]</value>
+      <value>//div[@id = 'u4_twolinestab-1159-multilineLine-1' and (text() = 'Procurement' or . = 'Procurement')]</value>
    </webElementXpaths>
 </WebElementEntity>

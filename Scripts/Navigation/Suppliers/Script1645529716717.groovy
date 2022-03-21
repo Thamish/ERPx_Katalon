@@ -17,17 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login/Positive/Successful login'), [('UserName') : findTestData('LoginDataCorrect').getValue(1, 1)
-        , ('Client') : findTestData('LoginDataCorrect').getValue(2, 1), ('Password') : findTestData('LoginDataCorrect').getValue(3, 1)], 
-    FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('Object Repository/Page_Menu - Unit4 ERP/div_Procurement'))
 
-WebUI.click(findTestObject('Object Repository/Page_Menu - Unit4 ERP/div_Suppliers'))
+WebUI.click(findTestObject('Object Repository/Page_Menu - Unit4 ERP/div_Suppliers_1'))
 
-WebUI.click(findTestObject('Object Repository/Page_Suppliers - Unit4 ERP/h1_Suppliers'))
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Suppliers - Unit4 ERP/h1_Suppliers'), 0)
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Suppliers - Unit4 ERP/h1_Suppliers'), 'Suppliers')
 
 WebUI.closeBrowser()
 

@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Nav,Edge Chromium 99,,,2022-03-18 14:18:56,2022-03-18 14:20:25,1m - 28.959s,FAILED
+,,,,,,,
+Test Cases/Navigation/Requisition Advanced,Edge Chromium 99,,,2022-03-18 14:19:18,2022-03-18 14:19:51,32.481s,FAILED
+"click(findTestObject(""Page_Menu - Unit4 ERP/div_Procurement""))",Edge Chromium 99,,,2022-03-18 14:19:19,2022-03-18 14:19:51,31.459s,FAILED
+,,,,,,,
+Test Cases/Navigation/Suppliers,Edge Chromium 99,,,2022-03-18 14:19:51,2022-03-18 14:20:25,34.028s,FAILED
+"click(findTestObject(""Object Repository/Page_Menu - Unit4 ERP/div_Procurement""))",Edge Chromium 99,,,2022-03-18 14:19:54,2022-03-18 14:20:25,31.263s,FAILED

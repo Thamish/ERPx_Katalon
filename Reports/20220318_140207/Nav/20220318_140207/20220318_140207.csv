@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Nav,Chrome 99.0.4844.74,,,2022-03-18 14:02:11,2022-03-18 14:02:50,38.466s,FAILED
+,,,,,,,
+Test Cases/Navigation/Suppliers,Chrome 99.0.4844.74,,,2022-03-18 14:02:22,2022-03-18 14:02:50,27.758s,FAILED
+"click(findTestObject(""Page_Menu - Unit4 ERP/div_Procurement""))",Chrome 99.0.4844.74,,,2022-03-18 14:02:24,2022-03-18 14:02:50,25.573s,FAILED
