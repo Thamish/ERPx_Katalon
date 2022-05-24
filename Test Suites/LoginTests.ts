@@ -25,6 +25,7 @@
          </iterationEntity>
          <testDataId>Data Files/LoginDataIncorrect</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>4c87969d-11b3-427f-9cfc-8ffcf7626228</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -58,23 +59,6 @@
          </iterationEntity>
          <testDataId>Data Files/LoginDataCorrect</testDataId>
       </testDataLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>647fed0b-f179-4098-a82d-93ee743e8f2f</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>5c4b71f9-7015-46e7-996d-3580e960aa3b</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>15e0e578-dbb0-4862-a6a5-633a71c89336</variableId>
-      </variableLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

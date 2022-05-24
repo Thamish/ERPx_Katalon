@@ -5,25 +5,4 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>6f933c99-5186-46b9-b810-feca6d1f9222</testCaseGuid>
-   <variable>
-      <defaultValue>findTestData('LoginDataCorrect').getValue(1, 1)</defaultValue>
-      <description></description>
-      <id>647fed0b-f179-4098-a82d-93ee743e8f2f</id>
-      <masked>false</masked>
-      <name>UserName</name>
-   </variable>
-   <variable>
-      <defaultValue>findTestData('LoginDataCorrect').getValue(2, 1)</defaultValue>
-      <description></description>
-      <id>5c4b71f9-7015-46e7-996d-3580e960aa3b</id>
-      <masked>false</masked>
-      <name>Client</name>
-   </variable>
-   <variable>
-      <defaultValue>findTestData('LoginDataCorrect').getValue(3, 1)</defaultValue>
-      <description></description>
-      <id>15e0e578-dbb0-4862-a6a5-633a71c89336</id>
-      <masked>false</masked>
-      <name>Password</name>
-   </variable>
 </TestCaseEntity>

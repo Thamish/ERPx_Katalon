@@ -23,5 +23,3 @@ WebUI.click(findTestObject('Object Repository/Page_Menu - Unit4 ERP/div_Supplier
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Suppliers - Unit4 ERP/h1_Suppliers'), 'Suppliers')
 
-WebUI.closeBrowser()
-

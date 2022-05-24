@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+E2E,Chrome 101.0.4951.67,,,2022-05-19 13:16:17,2022-05-19 13:16:47,29.166s,FAILED
+,,,,,,,
+Test Cases/End2End/Create Supplier,Chrome 101.0.4951.67,,,2022-05-19 13:16:27,2022-05-19 13:16:47,19.260s,FAILED
+"openBrowser("""")",Chrome 101.0.4951.67,,,2022-05-19 13:16:28,2022-05-19 13:16:31,2.582s,PASSED
+"navigateToUrl(""https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f"")",Chrome 101.0.4951.67,,,2022-05-19 13:16:31,2022-05-19 13:16:32,1.351s,PASSED
+"setText(findTestObject(""Page_Login - Unit4 ERP/input_User name_ctl10name""), ""Unit4 "")",Chrome 101.0.4951.67,,,2022-05-19 13:16:32,2022-05-19 13:16:33,0.794s,PASSED
+"setText(findTestObject(""Page_Login - Unit4 ERP/input_Client_ctl10client""), "" X10"")",Chrome 101.0.4951.67,,,2022-05-19 13:16:33,2022-05-19 13:16:33,0.707s,PASSED
+"setEncryptedText(findTestObject(""Page_Login - Unit4 ERP/input_Password_ctl10password""), ""3Y/tlH8mUjLSqOJCUloyKA=="")",Chrome 101.0.4951.67,,,2022-05-19 13:16:33,2022-05-19 13:16:34,0.458s,PASSED
+"setText(findTestObject(""Page_Login - Unit4 ERP/input_Client_ctl10client""), ""X10"")",Chrome 101.0.4951.67,,,2022-05-19 13:16:34,2022-05-19 13:16:35,0.690s,PASSED
+"click(findTestObject(""Object Repository/Page_Login - Unit4 ERP/input_Password_ctl10next""))",Chrome 101.0.4951.67,,,2022-05-19 13:16:35,2022-05-19 13:16:37,2.050s,PASSED
+"click(findTestObject(""Object Repository/Page_Homescreen menu - Unit4 ERP/div_Procurement""))",Chrome 101.0.4951.67,,,2022-05-19 13:16:37,2022-05-19 13:16:47,9.907s,FAILED

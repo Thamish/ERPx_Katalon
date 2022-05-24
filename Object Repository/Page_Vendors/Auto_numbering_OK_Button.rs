@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Auto_numbering_OK_Button</name>
+   <tag></tag>
+   <elementGuidId>77d3fa79-3196-4ecc-99e8-096dc7f94afb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/form/table/tbody/tr/td/div[1]/table/tbody/tr/td/div[3]/table/tbody/tr[2]/td/div/div/div[2]/div/div/div/div[1]/div[2]/div/table/tbody/tr/td[1]/button</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

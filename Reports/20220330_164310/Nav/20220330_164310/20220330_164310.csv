@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Nav,Chrome 99.0.4844.84,,,2022-03-30 16:43:15,2022-03-30 16:44:06,51.563s,FAILED
+,,,,,,,
+Test Cases/Navigation/Requisition Advanced,Chrome 99.0.4844.84,,,2022-03-30 16:43:27,2022-03-30 16:43:31,3.483s,FAILED
+"click(findTestObject(""Page_Menu - Unit4 ERP/div_Procurement""))",Chrome 99.0.4844.84,,,2022-03-30 16:43:28,2022-03-30 16:43:30,2.026s,PASSED
+"click(findTestObject(""Object Repository/Page_Menu - Unit4 ERP/div_Requisitions - advanced""))",Chrome 99.0.4844.84,,,2022-03-30 16:43:30,2022-03-30 16:43:31,0.665s,FAILED
+,,,,,,,
+Test Cases/Navigation/Suppliers,Chrome 99.0.4844.84,,,2022-03-30 16:43:31,2022-03-30 16:44:06,35.735s,FAILED
+"click(findTestObject(""Object Repository/Page_Menu - Unit4 ERP/div_Procurement""))",Chrome 99.0.4844.84,,,2022-03-30 16:43:33,2022-03-30 16:43:34,0.815s,PASSED
+"click(findTestObject(""Object Repository/Page_Menu - Unit4 ERP/div_Suppliers_1""))",Chrome 99.0.4844.84,,,2022-03-30 16:43:34,2022-03-30 16:43:35,0.550s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Suppliers - Unit4 ERP/h1_Suppliers""), ""Suppliers"")",Chrome 99.0.4844.84,,,2022-03-30 16:43:35,2022-03-30 16:44:06,31.771s,FAILED

@@ -6,12 +6,12 @@
    <elementGuidId>9e7d8b69-ce9a-4e57-b718-f700bff6cefa</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='ext-gen1911']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#ext-gen1911</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[2]/div/div/div[1]/div[2]/div/div[2]/div[3]/div[2]/span/div/div/div/div/div[2]/span/div/div[2]/ul/li[1]/div/div[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

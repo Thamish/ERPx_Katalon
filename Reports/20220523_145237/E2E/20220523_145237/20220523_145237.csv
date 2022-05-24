@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+E2E,Chrome 101.0.4951.67,,,2022-05-23 14:52:40,2022-05-23 14:53:01,20.941s,FAILED
+,,,,,,,
+Test Cases/End2End/Create Supplier,Chrome 101.0.4951.67,,,2022-05-23 14:52:50,2022-05-23 14:53:01,11.135s,FAILED
+"click(findTestObject(""Object Repository/Page_Homescreen menu - Unit4 ERP/div_Procurement""))",Chrome 101.0.4951.67,,,2022-05-23 14:52:50,2022-05-23 14:52:53,2.914s,PASSED
+"click(findTestObject(""Object Repository/Page_Homescreen menu - Unit4 ERP/div_Vendors""))",Chrome 101.0.4951.67,,,2022-05-23 14:52:53,2022-05-23 14:52:54,0.489s,PASSED
+"switchToFrame(findTestObject(""Page_Vendors/Frame""), 60)",Chrome 101.0.4951.67,,,2022-05-23 14:52:54,2022-05-23 14:53:01,7.159s,FAILED

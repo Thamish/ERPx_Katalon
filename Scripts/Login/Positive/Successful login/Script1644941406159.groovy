@@ -21,11 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://indmodsan.unit4.com/SDX_PSO/Login/Login.aspx?ReturnUrl=%2fSDX_PSO%2f')
 
-WebUI.setText(findTestObject('Page_Login - Unit4 ERP/input_User name_ctl10name'), UserName)
+WebUI.setText(findTestObject('Page_Login - Unit4 ERP/input_User name_ctl10name'), "Unit4")
 
-WebUI.setText(findTestObject('Page_Login - Unit4 ERP/input_Client_ctl10client'), Client)
+WebUI.setText(findTestObject('Page_Login - Unit4 ERP/input_Client_ctl10client'), "X10")
 
-WebUI.setText(findTestObject('Page_Login - Unit4 ERP/input_Password_ctl10password'), Password)
+WebUI.setText(findTestObject('Page_Login - Unit4 ERP/input_Password_ctl10password'), "ERP7sdx2021%")
 
 WebUI.click(findTestObject('Page_Login - Unit4 ERP/Login_Button'))
 

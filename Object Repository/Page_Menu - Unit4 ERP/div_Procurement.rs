@@ -6,12 +6,12 @@
    <elementGuidId>d06731ac-f692-465a-9c19-7f9803bc286a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='u4_twolinestab-1159-multilineLine-1']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#u4_twolinestab-1159-multilineLine-1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[2]/div/div/div[1]/div[2]/div/div[2]/div[2]/div[1]/div[2]/div/a[6]/div/div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
